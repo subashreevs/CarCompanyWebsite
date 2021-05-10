@@ -1,0 +1,58 @@
+body{
+    font-size: 16pt;
+    background: rgb(10,11,41) ;
+    background: radial-gradient(circle, #3f1b1b 20%, #000 69% );
+    color: white;
+}
+
+
+footer{
+    
+    font-size: 20px;
+    position: fixed; 
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+nav{
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin: 4px;
+    color: white;
+}
+
+.center{
+    text-align : center;
+}
+
+#imgdiv{
+   margin-top: 100px;
+   text-align: center;
+
+}
+#test_table{
+	padding-left: 300px;
+	text-align: justify;
+    width: 100%;
+    border-spacing: 15px;
+}
+
+#submit, #resetBtn{
+	margin-left: 20px;
+	padding: 5px 8px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #3f1b1b; 
+	text-align: center;
+	text-decoration: none;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px;
+}
+
+#submit:hover, #resetBtn:hover{
+    background-color: #250808;
+}

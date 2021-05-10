@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Test Drive</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav align="center">
+            <a href="home.html">Home</a>
+            <a href="sales.html">Sales</a>
+            <a href="service.html">Service</a>
+            <a href="models.html">Models</a>
+            <a href="test_drive.html">Test Drive</a>
+            <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <h1>TEST DRIVE</h1>
+        <hr><br>
+        <table id="test_table">
+            <form name="regform" id="regform" action="http://localhost:8080/cars/testServlet">
+                <tr>
+                    <td><label for="name">Customer Name</label></td>
+                    <td><input name="name" id="name" type="text" ></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input name="age" id="age" type="text"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone</label></td>
+                    <td><input name="phone" id="phone" type="text" ></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="model">Car Model</label></td>
+                    <td><input name="model" id="model" type="text" ></td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" id="submit"></td>
+                    <td><input type="button" value="Reset" id="resetBtn" onclick="myReset()"></td>
+                </tr>
+
+            </form>
+        </table>
+        
+        <footer>
+            <address>
+                <b>CONTACT: </b> <a href="mailto:tatamotors@gmail.com">tatamotors@gmail.com</a>
+
+            </address>
+
+        </footer>
+    </body>
+    <script>
+        function myReset(){
+            document.getElementById("regform").reset();
+        }
+    </script>
+</html>

@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>testServlet</servlet-name>
+		<servlet-class>testServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>testServlet</servlet-name>
+		<url-pattern>/testServlet</url-pattern>
+	</servlet-mapping>
+
+	
+	 <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.23</version>
+    </dependency>
+
+</web-app>
